@@ -1,0 +1,291 @@
+<html>
+    <head>
+        <title>Perfil</title>
+        <style>
+            .principal_meu_perfil{
+                width:1350px;
+                height: auto;
+                border: 0px solid;
+                margin: auto;
+                margin-top:20px;
+            }
+            .titulo_meu_perfil{
+                background-color: #980000;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                color: #FFFFFF;
+                width: 100%;
+                height: 40px;
+                text-align: center;
+                padding-top: 10px;
+                border:solid 0px;
+            }
+            .menu_meu_perfil{
+                width: 258px;
+                height: auto;
+                border: 1px solid #D9D9D9;
+                float: left;
+            }
+            .menu_meu_perfil p{
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                text-align: center;
+                
+            }
+            .propriedades_meu_perfil{
+                width: 991px;
+                height: auto;
+                border: 1px solid #D9D9D9;
+                margin-left: 80px;
+                float: left;            
+            }
+            .detalhes_perfil{
+                width: auto;
+                height: auto;
+                border: 0px solid;
+            }
+            .detalhes_perfil p{
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                padding-left: 20px;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+            legend{
+                margin: auto;
+                margin-top: 30px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+            .btn_editar_perfil{
+                width: 200px;
+                height: 20px;
+                border: 1px solid #550000;
+                background-color: #980000;
+                color: #fff;
+                margin:auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 10px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                transition: 0.5s;
+                text-align: center;
+            }
+            .btn_editar_perfil:hover{
+                background-color: #860000;
+                transition: 0.5s;
+            }
+            
+            .propriedades_trocar_senha{
+                width: 991px;
+                height: auto;
+                border: 1px solid #D9D9D9;
+                margin-left: 80px;
+                float: left;            
+            }
+            .txtSenha_perfil{
+                width: 400px;
+                height: 40px;
+                border: 1px solid #D9D9D9;
+                color: #000;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                padding-left: 20px;
+                margin-top: 20px;
+                margin-left: 290px;
+            }
+           .btnCadastrar_perfil{
+                width: 140px;
+                height: 40px;
+                border: 1px solid #550000;
+                background-color: #980000;
+                color: #fff;
+                margin-left: 155px;
+                margin-top: 25px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                transition: 0.5s;
+            }
+            .btnCadastrar_perfil:hover{
+                background-color: #860000;
+                transition: 0.5s;
+            }
+            .btnCancelar_perfil{
+                width: 100px;
+                height: 40px;
+                border: 1px solid #550000;
+                background-color: #980000;
+                color: #fff;
+                margin-left: 290px;
+                margin-top: 25px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                transition: 0.5s;
+            }
+            .btnCancelar_perfil:hover{
+                background-color: #860000;
+                transition: 0.5s;
+            }
+            
+             .propriedades_pedidos_andamento{
+                width: 991px;
+                height: auto;
+                border: 1px solid #D9D9D9;
+                margin-left: 80px;
+                float: left;            
+            }
+            .segurar_pedido{
+                width: 100%;
+                height: 270px;
+                border: 0px solid;
+                margin-bottom: 20px;
+            }
+            .img_produto_perfil{
+                width: 200px;
+                height: 200px;
+                border: 0px solid;
+                border-radius: 50%;
+                margin-top: 20px;
+                margin-left: 10px;
+                float: left;
+            }
+            .img_produto_perfil img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+            .propriedades_pedido{
+                width: 750px;
+                height: 270px;
+                border: 0px solid;
+                margin-left: 15px;
+                float: left;
+            }
+            .propriedades_pedido p{
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                padding-left: 20px;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+             .propriedades_pedido a{
+                text-decoration: none;
+                color: #000;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 17px;
+                padding-left: 20px;
+                margin-top: 20px;
+                margin-left: 550px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="principal_meu_perfil">
+            <div class="menu_meu_perfil">
+                <div class="titulo_meu_perfil">
+                    Menu
+                </div>
+                
+                <p><a href="perfil.php">Detalhes do perfil</a></p>
+                <p><a href="trocar_senha.php">Trocar Senha</a></p>
+                <p><a href="pedidos_andamento.php">Pedidos em andamento</a></p>
+                <p><a href="pedidos_entregues">Pedidos entregues</a></p>
+                <p><a href="meu_carrinho">Meu carrinho</a></p>
+                <p>Sair</p>
+            </div>
+
+            <div class="propriedades_meu_perfil">
+                <div class="titulo_meu_perfil">
+                    Meu Perfil
+                </div>
+
+                <div class="detalhes_perfil">
+                    <legend>Dados Pessoais</legend>
+                    <hr>
+                    <p>Nome completo:</p>
+                    <p>Email:</p>
+                    <p>Telefone:</p>
+                    <p>celular:</p>
+                    <p>Data de Nascimento:</p>
+                    <p>Registro Geral:</p>
+                    <p>CPF:</p>
+
+                    <legend>Endereço</legend>
+                    <hr>
+                    <p>Longradouro:</p>
+                    <p>Bairro:</p>
+                    <p>Cidade:</p>
+                    <p>Estado:</p>
+                    <p>Número:</p>
+                    <p>Complemento:</p>  
+                </div>
+                <div class="btn_editar_perfil">Editar Perfil    </div>
+            </div>
+        </div>
+        
+        <div class="principal_meu_perfil">
+            <div class="meu_perfil  ">
+                <div class="menu_meu_perfil">
+                    <div class="titulo_meu_perfil">
+                        Menu
+                    </div>
+                    <p>Detalhes do perfil</p>
+                    <p>Trocar Senha</p>
+                    <p>Pedidos em andamento</p>
+                    <p>Pedidos entregues</p>
+                    <p>Meu carrinho</p>
+                </div>
+
+                <div class="propriedades_trocar_senha">
+                    <div class="titulo_meu_perfil">
+                        Trocar senha
+                    </div>  
+                    <p> <input type="password" name="txtSenha" placeholder="Insira senha antiga" required class="txtSenha_perfil">
+                        <input type="password" name="txtSenha" placeholder="Insira nova senha" required class="txtSenha_perfil">
+                        <input type="password" name="txtSenha" placeholder="Confirmar nova senha" required class="txtSenha_perfil"></p>
+
+                    <p><input type="reset" name="btnLipar" value="Cancelar" class="btnCancelar_perfil">
+                        <input type="submit" name="btnLogin" value="Cadastrar" class="btnCadastrar_perfil"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="principal_meu_perfil">
+            <div class="menu_meu_perfil">
+                <div class="titulo_meu_perfil">
+                    Menu
+                </div>
+                <p>Detalhes do perfil</p>
+                <p>Trocar Senha</p>
+                <p>Pedidos em andamento</p>
+                <p>Pedidos entregues</p>
+                <p>Meu carrinho</p>
+            </div>
+
+            <div class="propriedades_pedidos_andamento">
+                <div class="titulo_meu_perfil">
+                    Pedidios em andamento
+                </div> 
+
+                <?php for($i=0; $i>=4; $i++){ ?>
+                    <div class="segurar_pedido">
+                        <div class="img_produto_perfil"><img src="../img_produtos/picadinho.jpg" alt=""></div>
+                        <div class="propriedades_pedido">
+                            <p>Número do pedido:</p>
+                            <p>Status:</p>
+                            <p>Data da Compra:</p>
+                            <p>Data estimada para entrega:</p>
+                            <p>Valor total:</p>
+                            <p>Quantidade:</p>
+                            <a href="#">Mais...</a>
+                        </div>
+                    </div>
+                    <hr width="800px;">
+                <?php } ?>
+            </div>
+        </div>
+    </body>
+</html>

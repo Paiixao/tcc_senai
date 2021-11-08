@@ -1,0 +1,58 @@
+<html>
+    <head><title></title>
+    
+    <style>
+        .imagem_produto_promocoes_do_mes{
+            width:260px;
+            height:240px;
+            border:0px solid;
+            margin: auto;
+            background-color:#7FB521;
+        } 
+        .imagem_produto_promocoes_do_mes img{
+            width: 240px;
+            height: 220px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        h1{
+            background-color: #990000;
+            color: #FFF;
+            left: -10px;
+            top:-50px;
+            padding: 5px 0;
+            position: relative;
+            width: 280px;
+            font-size: 16px;
+            text-align: center;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        h1::before{
+            border-color: transparent #7C0000 #7C0000 transparent;
+            border-style: solid;
+            border-width: 5px;
+            content: '';
+            left: 0;
+            position: absolute;
+            top: -10px;
+        }
+        h1::after{
+            border-color: transparent transparent #7C0000 #7C0000;
+            border-style: solid;
+            border-width: 5px;
+            content: '';
+            position: absolute;
+            right: 0;
+            top: -10px;
+        }
+</style>
+    
+    </head>
+
+    <body>
+        <div class="imagem_produto_promocoes_do_mes">
+            <img src="img_produtos/picadinho.jpg" alt="" >
+            <h1>Dia dos Pais</h1>
+        </div>
+    </body>
+</html>

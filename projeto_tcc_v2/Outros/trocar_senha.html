@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Trocar Senha</title>
+        <style>
+            .apoio_sub_menu_perfil{
+                width: 100%;
+                height: 240px;
+                border: 1px solid;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 14px; 
+            }
+            .menu_desktop{
+                height:30px;
+                border:solid 0px;
+                padding-top:10px;
+                margin-top:4px;
+            }
+            .menu_desktop,
+            .sub-submenu_desktop {
+                list-style: none;
+            }
+            .menu_desktop a {
+                text-decoration: none;
+                color: #fff;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .menu_desktop li {
+                position: relative;
+                margin-left: 50px;
+            }
+            .menu_desktop > li {
+                float: left;
+            }
+            .menu_desktop li:hover > .submenu_desktop {
+                display: block;
+            }
+            .submenu_desktop {
+                display: none;
+                list-style-type: none;
+                background-color: #580000;
+                width: auto;
+                height: auto;
+                padding: 0;
+                padding-top: 5px;
+            }
+
+            .submenu_desktop li{
+                margin: 0;
+                text-align: center;
+                width: 100%;
+                height: 25px;
+                font-size: 16px;
+                padding-top:5px;
+            }
+            .submenu_desktop li:hover {
+              background: #B22222;
+              color: #FFFFFF;
+            }
+            .submenu_desktop .submenu_desktop {
+                top: 0;
+                left: 100%;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <div class="apoio_sub_menu_perfil">
+            <ul class="menu_desktop">
+               <li><b>Administrar Produtos</b>
+                    <ul class="submenu_desktop">
+                        <a href="administrar_pratos.php"><li>Pratos</li></a>
+                        <a href="administrar_promocoes.php"><li>Promoções</li></a>
+                        <a href="administrar_categorias.php"><li>Categorias</li></a>
+                        <a href="administrar_subcategorias.php"><li>Subcategorias</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html> 

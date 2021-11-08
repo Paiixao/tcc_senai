@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Detalhe</title>
+        <style>
+            .principal_detalhes{
+                width:1350px;
+                height: auto;
+                border: 1px solid #D9D9D9;
+                margin-top: 10px;
+                margin: auto;
+            }
+            .detalhes_produto{
+                border: solid 0px;
+                width: 100%;
+                height: 100%;
+                margin-left: auto;
+                margin-top: 2px;
+            }
+            .titulo_produto{
+                background-color: #980000;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                color: #FFFFFF;
+                width: 100%;
+                height: 40px;
+                text-align: center;
+                padding-top: 10px;
+                border:solid 0px;
+            }
+            .mais_imagem_principal{
+                width: 624px;
+                height: 380px;
+                border: 0px solid;
+                margin-top: 20px;
+                margin-left: 362px;
+            }
+            .botao_passar_imagem{
+                width: 70px;
+                height:70px;
+                border: 0px solid;
+                float: left;
+                margin-top: 160px;
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+            .botao_passar_imagem img{
+                width: 70px;
+                height: 70px; 
+            }
+            .imagem_mais_detalhes{
+                width:450px;
+                height:380px;
+                border:0px solid;
+                background-color:#7FB521;
+                margin: auto;
+                overflow: hidden;
+                float: left;
+            }
+            .imagem_mais_detalhes img{
+                width:415px;
+                height:358px;
+                margin-left:18px;
+                margin-top:10px;
+            }
+            .mais_imagem{
+                width: 420px;
+                height: 80px;
+                border: 0px solid;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .mais_imagem_adc{
+                width: 90px;
+                height: 80px;
+                border: 0px solid;
+                float: left;
+                margin-left: 10px;
+            }
+            .mais_imagem_adc img{
+                width: 90px;
+                height: 80px;                
+            }
+            .detalhes_nome_produto{
+                width: 100%;
+                height:auto;
+                border: 0px solid;
+                font:Verdana, Arial, Helvetica, sans-serif;
+                font-size:22px;
+                font-weight: bold;
+                text-align:center;
+                margin-top: 20px;
+            }
+
+            .detalhes_resumo_produto{
+                border: solid 0px;
+                text-align: center;
+                width: 100%;
+                height: 2%;
+                font: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: auto;
+            }
+
+            .ingredientes_produto{
+                border: solid 0px;
+                width: 100%;
+                height: 550px;
+                margin-top: 20px;
+                overflow: hidden;
+            }
+            .titulos_detalhes{
+                width: 100%;
+                height: 40px;
+                border:0px solid;
+                background-color: #980000;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                color: #FFFFFF;       
+                text-align: center;
+                padding-top: 10px;
+                margin-top: 10px;
+            }
+
+            #titulo_modoPreparo_detalhes{
+                border: solid 0px;
+                margin-left: 250px;
+            }
+
+            #titulo_ingredientes_detalhes{
+                border: solid 0px;
+                margin-right: 250px;
+            }
+
+            #ingredientes{
+                border: solid 0px;
+                margin-left: 15px;
+                width: 35%;
+                height: 480px;
+                text-align: left;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin-top: 10px;
+                margin-left: 150px;
+                float: left;
+            }
+
+            #modo_preparo{
+                border: solid 0px;
+                margin-left: 15px;
+                width: 40%;
+                height: 480px;
+                text-align: left;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin-top: 10px;
+                margin-left: 120px;
+                float: left;
+            }
+            .adc_comprar_detalhes{
+                width: 100%;
+                height: 80px;
+                border: 0px solid;
+                float: left;
+                margin-top: 20px;
+            }
+            .like_dislike_detalhes{
+                width: 49%;
+                height: 70px;
+                border: 0px solid;
+                float: left;
+                margin-left: 120px;
+                margin-top: 10px;
+                font-size: 22px;
+            }
+            #like_dislike_detalhes{
+                width: 260px;
+                height: 65px;
+                border: 0px solid;
+                margin-left: 50px;
+                float: left;
+                font-size: 17px;
+            }
+            .like_detalhes{
+                width: 60px;
+                height: 60px;
+                border: 0px solid;
+                float: left;
+                margin-left: 2px;
+                text-align: center;
+                font-size: 20px;
+            }
+            .dislike_detalhes{
+                width: 60px;
+                height: 60px;
+                border: 0px solid;
+                float: left;
+                margin-left: 2px;
+                text-align: center;
+                font-size: 20px;
+            }
+            .adc_carrinho_produto_detalhes{
+                width: 40%;
+                height: 70px;
+                border: 0px solid;
+                overflow: hidden;
+                margin-top: 10px;
+            }
+            .btn_mais_menos_detalhes{
+                width:40px;
+                height:40px;
+                border: 0px solid;
+                float:left;
+                margin-left: 10px;
+                margin-top: 2px;
+                overflow: hidden;
+            }
+            .btn_mais_menos_detalhes img{
+                width:40px;
+                height:40px;
+            }
+            .qtd_carrinho_detalhes{
+                width:40px;
+                height:40px;
+                border: 0px solid;
+                text-align:center;
+                font-size: 18px;
+                float:left;
+                margin-top: -5px;
+                margin-left: 10px;
+                overflow: hidden
+            }
+            .btn_adc_carrinho_detalhes{
+                width:130px;
+                height: 55px;
+                border: 1px solid #E1E1E1;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                text-align:center;
+                margin-left: 55px;
+                float:left;
+                background-color: #F3F3F3;
+                overflow: hidden;
+            }
+            .btn_comprar_detalhes{
+                width:160px;
+                height: 55px;
+                border: 1px solid #E1E1E1;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                text-align:center;
+                float:left;
+                margin-left:15px;
+                background-color: #F3F3F3;
+                overflow: hidden;
+            }
+            
+            .titulo_comentarios_detalhes{
+                background-color: #980000;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                color: #FFFFFF;
+                width: 100%;
+                height: 40px;
+                text-align: center;
+                padding-top: 10px;
+                border:solid 0px;
+            }
+            .comentario_principal_detalhes{
+                border: solid 0px;
+                width: 100%;
+                height: auto;
+                margin-top: 150px;
+                overflow: hidden;
+            }
+
+            .usuario_detalhes{
+                border: solid 0px;
+                width: 100%;
+                height: 230px;
+                margin-top: 20px;
+            }
+
+            .img_usuario1{
+                border: solid 0px;
+                width: 15%;
+                height: 212px;
+                margin-left: 5px;
+                float: left;
+            }
+
+            .img_usuario{
+                border: solid 0px;
+                width: 70%;
+                height: 60%;
+                margin-left: 10px;
+                margin-top: 10px;
+                border-radius: 5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .img_usuario img{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+
+            .name_usuario{
+                border: solid 0px;
+                width: 100%;
+                height: 10%;
+                text-align: center;
+                margin-top: 5px;
+                font-family:Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            .comentario_usuario{
+                border: solid 0px;
+                width: 1100px;
+                height: 212px;
+                float: left;
+                text-align: justify;
+                font-size: 18px;
+                margin-left: 15px;
+            }
+            .area_comentar{
+                width: 700px;
+                height: auto;
+                border: 0px solid blue;
+                margin: auto;
+                margin-top: 80px;
+            }
+            .titulo_comentario_sub{
+                width: auto;
+                height: auto;
+                border: 0px solid;
+                text-align: center;
+                font-size: 18px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+            }
+            .input_text_comentario{
+                width: 440px;
+                height: 40px;   
+                border: 1px solid #D9D9D9;
+                margin-left: 120px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                padding-left: 20px;
+            }
+            .textarea_text_comentario{
+                width: 440px;
+                height: 150px;
+                border: 1px solid #D9D9D9;
+                margin-left: 120px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                padding-left: 20px;
+            }
+            .btn_enviar_comentario{
+                width: 100px;
+                height: 40px;
+                border: 1px solid #550000;
+                background-color: #980000;
+                color: #fff;
+                margin-left: 165px;
+                margin-top: 10px;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                transition: 0.5s;
+            }
+            .btn_enviar_comentario:hover{
+                background-color: #860000;
+                transition: 0.5s;
+            }
+        </style>
+    </head>
+
+    <div class="principal_detalhes">
+        <div class="titulo_produto">
+            Detalhes
+        </div>
+        
+        <div class="mais_imagem_principal">
+            <div class="botao_passar_imagem"><img alt="" src="../img_icones/voltar.png" /></div>
+
+            <div class="imagem_mais_detalhes">
+                <img alt="" src="../img_produtos/picadinho.jpg" />
+            </div>
+
+            <div class="botao_passar_imagem"><img alt="" src="../img_icones/proximo.png" /></div>
+        </div>
+            
+        <div class="mais_imagem">
+            <div class="mais_imagem_adc"><img alt="" src="../img_produtos/picadinho.jpg" /></div>
+            <div class="mais_imagem_adc"><img alt="" src="../img_produtos/picadinho.jpg" /></div>
+            <div class="mais_imagem_adc"><img alt="" src="../img_produtos/picadinho.jpg" /></div>
+            <div class="mais_imagem_adc"><img alt="" src="../img_produtos/picadinho.jpg" /></div>
+        </div>
+        <div class="detalhes_nome_produto"> <p>Picadinho de frango 600g</p> </div>
+
+       <div class="detalhes_resumo_produto">
+         <p>Sem lactose, deliciosos cubinhos de filé de frango grelhado...</p>
+       </div>
+        
+        <div class="ingredientes_produto">
+            <div class="titulos_detalhes">
+                <span id="titulo_ingredientes_detalhes">Ingredientes</span>
+                                    |
+                <span id="titulo_modoPreparo_detalhes">Modo de Preparo</span>
+            </div>
+
+            <ul id="ingredientes">
+                <li>500G - DE PEITO DE FRANGO</li><br>
+                <li>1 - CEBOLA GRANDE</li><br>
+                <li>2 - CALDO DE GALINHA</li><br>
+                <li>1 - CEBOLINHA</li><br>
+                <li>1 - SALCINHA</li><br>
+                <li>2 - DENTES DE ALHO</li><br>
+                <li>1 - COLHER E MEIA DE AZEITE</li><br>
+                <li>OU 1 - COLHER DE OLEO PRA SUBSTITUIÇÃODO AZEITE</li><br>
+                <li>1 - CREME DE LEITE</li><br>
+                <li>½ -  PIMENTÃO</li><br>
+                <li>AZEITONAS PICADAS (PEQUENA PORÇÃO)</li><br>
+                <li>MANJERICÃO A GOSTO</li>
+            </ul>
+
+            <div id="modo_preparo">
+                <ol>
+                    <li>EM UMA PANELA MEDIA ,COLOQUE O AZEITE OU O OLEO ,COMO PREFERIR</li><br>
+                    <li>A CEBOLA PICADA EM CUBINHOS OS DENTES DE ALHO PICADOS EM MINUSCULOS CUBINHOS,DEIXE DOURAR</li><br>
+                    <li>ACRECENTE O FRANGO PICADO EM CUBINHOS DE 1 CM , POR 1 CM APROXIMADAMENTEDEIXE</li><br>
+                    <li> ACRECENTE OS TABLETES DE GALINHA E OS CUBINHOS DO FRANGO CHEGAREM AO PONTO DE CUZIDOS, MAS NAO FRITOS</li><br>
+                    <li>ACRECENTE O PIMENTÃO AS AZEITONASE O MANJERICÃO,ENM SEGUIDA O CREME DE LEITE , NAO É NECESSARIO ACRESSENTAR SAL.</li><br>
+                    <li><b>O SEGREDO DO PICADINHO E VC......</b></li><br>
+                    <li>O PONTO DO FRANGO APOS A FINALIZAÇÃO DOS INGREDIENTES, E ASSIM QUE O CREME DE LEITE FERVER...NO MAXIMO 2 MIN APOS SER ACRESSENTADO .</li><br>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="adc_comprar_detalhes">
+            
+            <div class="like_dislike_detalhes">
+                <div id="like_dislike_detalhes">
+                    <div class="like_detalhes"><img src="../img_icones/like.png" alt=""></div> 
+                    <div class="like_detalhes"><p> 0 </p></div> 
+                    <div class="dislike_detalhes"><img src="../img_icones/dislike.png" alt=""></div>
+                    <div class="dislike_detalhes"><p>0</p></div>
+                </div>
+            </div>
+            
+            <div class="adc_carrinho_produto_detalhes">
+                <div class="btn_mais_menos_detalhes">
+                    <img alt="" src="../img_icones/icon_menos.png" />
+                </div>
+
+                <div class="qtd_carrinho_detalhes">
+                    <p>4</p>
+                </div>
+
+                <div class="btn_mais_menos_detalhes">
+                    <img alt="" src="../img_icones/icon_maiss.png" />
+                </div>
+
+                <div class="btn_adc_carrinho_detalhes">
+                    <p>Adicionar ao carrinho</p>
+                </div>
+
+                <div class="btn_comprar_detalhes">
+                    <p> Comprar</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comentario_principal_detalhes">
+            <div class="titulo_comentarios_detalhes">
+                Comentários
+            </div>
+            <?php for($i=0; $i <= 3; $i++){ ?>
+             <div class="usuario_detalhes">
+               <div class="img_usuario1">
+                 <div class="img_usuario">
+                   <img src="../img_icones/goku.png">
+                 </div>
+
+                 <div class="name_usuario">
+                   <b>"OI EU SOU O GOKU"</b>
+                 </div>
+               </div>
+
+               <div class="comentario_usuario">
+                 <br>
+                    "Era uma vez um mexilhão feio. Ele era tão feio que todo mundo morreu. Acabou"
+               </div>
+            </div>
+            <hr width="1000px;">
+            <?php } ?>
+        </div>
+        
+        <div class="area_comentar">
+            <p class="titulo_comentario_sub">Mande-nos seu comentário sobre o produto abaixo</p>
+            <form name="comentario_produto" method="post" action="detalhes.php">
+                
+                <p><input type="text" name="txtNome_coment" placeholder="Insira Seu nome" required class="input_text_comentario"></p>
+                <p><input type="text" name="txtEmail_coment" placeholder="Insira Seu email" required class="input_text_comentario"></p>
+                <p><textarea name="txtComentario" placeholder="Insira seu comentário" class="textarea_text_comentario"></textarea></p>
+                
+                <p><input type="reset" name="btnLimpar" value="Limpar" class="btn_enviar_comentario">
+                <input type="submit" name="btnEnviar_coment" value="Enviar" class="btn_enviar_comentario"></p>
+
+            </form>
+        </div>
+    </div>
+    
+</html>

@@ -1,0 +1,38 @@
+@charset "utf-8"
+/*  CSS document  */
+
+body{border-color: solid 1px #000}
+
+.principal{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+}
+.cabecalho{
+    width:100%;
+    height: 268px;
+    background-color: #980000;
+    background-image: url("../imagens/bg_cabecalho.png");
+    border: solid 0px;
+    z-index: 500;
+}
+.logo{
+    width: 250px;
+    height: 255px;
+    float: left;
+    border: solid 0px;
+}
+.logo img{
+    width: 290px;
+    height: 250px;
+}
+.titulo_cms{
+    width: 250px;
+    height: 268px;
+    border: solid 1px;
+    font-family: verdana;
+    font-size: 50px;
+    float: left;
+    margin-left: 50px;
+    color: #cccccc;
+}

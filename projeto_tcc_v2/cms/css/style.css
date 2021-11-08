@@ -1,0 +1,2555 @@
+﻿@charset "utf-8"
+/*  CSS document  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img_preview{
+    width: 100%;
+    height: 100%;
+}
+
+.img_tabela{ padding: 5px 0px 0 35px; }
+
+.img_tabela img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: 10px;
+}
+/*-----------------------------------------------------HOME-------------------------------------------*/  
+body{border-color: solid 1px #000}
+
+.principal{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+}
+.cabecalho{
+    width:1250px;
+    height: 268px;
+    background-color: #980000;
+    background-image: url("../imagens/bg_cabecalho.png");
+    border: solid 0px;
+    z-index: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 250px;
+    height: 255px;
+    float: left;
+    border: solid 0px;
+}
+.logo img{
+    width: 290px;
+    height: 250px;
+}
+.titulo_cms{
+    width: 140px;
+    height: 200px;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 60px;
+    float: left;
+    margin-left: 50px;
+    color: #cccccc;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.apoio_cabecalho{
+    width: 800px;
+    height: 200px;
+    float: left;
+    border: solid 0px;
+}
+.bem_vindo{
+    width: 250px;
+    height: 50px;
+    clear: both;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left:460px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.imagem_perfil{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top:10px;
+}
+.imagem_perfil img{
+    width: 80px;
+    height: 80px;
+}
+.sair{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 715px;
+    margin-top: 5px;
+    border: solid 0px;
+    
+}
+.botao_logout[type=submit]{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    font-family: verdana;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #F4F4F4;
+}
+.conteudo{
+    width: 1250px;
+    height: auto;
+    overflow: hidden;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CCCCCC;
+}
+.apoio_conteudo{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: solid 0px;
+    color: black;
+}
+.rodape{
+    width: 1230px;
+    height: 50px;
+    font-family: verdana;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #550000;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.opcao_administrar{
+    width: 255px;
+    height: 450px;
+    border: solid 1px;
+    float: left;
+    margin-left: 45px;
+    background-color: #980000;
+}
+.imagem_opcao{
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+.nome_opcao{
+    width: 280px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    font-family: verdana;
+    font-size: 35px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*---------------------------------------------------FIM HOME----------------------------------------*/
+
+/*---------------------------------------------ADMINISTRAR PRODUTOS----------------------------------*/
+.conteudo_pratos{
+    width: 1250px;
+}
+
+#tbl_img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#tbl_img td{
+    width: 200px;
+}
+
+.apoio_administar_produtos{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+.titulo_administrar_produtos{
+    width: 200px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_prato{
+    width: 200px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+    margin-top:50px;
+}
+.text_addprato{
+    width:auto;
+    height:auto;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    margin-left:23px;
+}
+.apoio_pesquisa_produtos{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_produtos{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_produtos{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_produtos:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_produtos{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_produtos{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+.tabela_produtos td:nth-child(3){width: 350px;}
+.tabela_produtos td:nth-child(7){width: 100px; height: 50px;}
+.tabela_produtos td:nth-child(7) img{width: 100px; height: 50px;}
+.tabela_produtos a{text-decoration: none; color: #000;}
+.tabela_produtos a:hover{text-decoration: underline;}
+.tabela_produtos td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_produtos tr{
+    background-color:#CCCCCC;
+}
+.tabela_produtos img{
+    width: 20px;
+    height: 20px;
+}
+/*-------------------------------------------FIM ADMINISTRAR PRODUTOS--------------------------------*/
+
+/*-------------------------------------------ADMINISTRAR FALE CONOSCO--------------------------------*/
+.apoio_fale_conosco{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+.titulo_fale_conosco{
+    width: 360px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.apoio_pesquisa_fale{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_fale{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_fale{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_fale:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_fale_conosco{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_fale_conosco{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+.tabela_fale_conosco td:nth-child(6){width: 85px;}
+
+.tabela_fale_conosco td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_fale_conosco tr{
+    background-color:#CCCCCC;
+}
+/*-------------------------------------------FIM ADMINISTRAR FALE CONOSCO----------------------------*/
+
+/*-------------------------------------------------ADICIONAR PRODUTO---------------------------------*/
+.titulo_conteudo{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.frm_conteudo{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.nome_produto{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+}
+.edit_txtbox{
+    width: 275px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin: 0 auto;
+}
+.ingredientes_produto{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.edit_select{
+    width: 240px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 27px;
+    font-size: 16px;
+    float: left;
+}
+.apoio22{
+    width: auto;
+    height: auto; 
+    border: solid 0px;
+    float: left;
+}
+.foto_produto{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.edit_img{
+    margin-left: 90px;
+}
+.produto_img{
+    width: 25px;
+    height: 25px;
+    border: solid 1px;
+    margin-left: 148px;
+    margin-top: 5px;
+}
+.tempo_produto{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+}
+.edit_number{
+    width: 100px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 80px;
+}
+
+.calorias_produto{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.categoria_produto{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.edit_select_categoria{
+    width: 213px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+    margin-left: 70px;
+}
+.subcategoria_produto{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.edit_select_subcategoria{
+    width: 244px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.preco_produto{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top:10px;
+}
+.preparo_produto{
+   width: 430px;
+    height: auto;
+    border: solid 0px;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 20px;
+    float: left;
+    color: #980000; 
+}
+
+.edit_ingrediente_prato{
+    width: 270px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 25px;
+}
+.edit_modo_preparo_pratos{
+    width: 248px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 0px;
+}
+.edit_textarea_pratos{
+    width: 230px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 64px;
+}
+.descricao_produto{
+   width: 430px;
+    height: auto;
+    border: solid 0px;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 20px;
+    float: left;
+    color: #980000; 
+}
+.edit_textarea_descricao{
+    width: 250px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 65px;
+}
+.botao_addproduto{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 25px;
+    float: left;
+    padding-bottom: 5px;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 65px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+
+.botao_adicionar{
+    width:30px;
+    height: 30px;
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    float: left;
+    color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: solid 0px;
+}
+.botao_adicionar img{
+    width: 100%;
+    height: 100%;
+}
+/*----------------------------------------------FIM ADICIONAR PRODUTO-------------------------------*/
+
+/*------------------------------------------------ADMINISTRAR DICAS---------------------------------*/
+.apoio_administrar_dicas{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+.titulo_administrar_dicas{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_dica{
+    width: 200px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+    margin-top:50px;
+}
+.text_adddica{
+    width:auto;
+    height:auto;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    margin-left:23px;
+}
+.apoio_pesquisa_dicas{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_dicas{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_dicas{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_dicas:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_dicas{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_dicas{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+    margin-top: -15px;
+}
+.tabela_dicas td:nth-child(3){ width: 300px;}
+
+.tabela_dicas td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_dicas tr{
+    background-color:#CCCCCC;
+}
+/*--------------------------------------------FIM ADMINISTRAR DICAS---------------------------------*/
+
+/*--------------------------------------------ADMINISTRAR PARCEIROS---------------------------------*/
+.apoio_administrar_parceiros{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+.titulo_administrar_parceiros{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_parceiro{
+    width: 200px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+    margin-top:50px;
+}
+.text_addparceiro{
+    width:auto;
+    height:auto;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    margin-left:4px;
+}
+.apoio_pesquisa_parceiros{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_parceiros{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_parceiros{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_parceiros:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_parceiros{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+    overflow: auto;
+}
+.tabela_parceiros{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+    overflow: auto;
+}
+
+.tabela_parceiros td:nth-child(6){width: 350px;}
+.tabela_parceiros td:nth-child(8){width: 100px;}
+
+.tabela_parceiros td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_parceiros tr{
+    background-color:#CCCCCC;
+}
+.coluna_img{
+    width: 50px;
+    height: 50px;
+}
+.coluna_img img{
+    width: 50px;
+    height: 50px;
+}
+/*----------------------------------------FIM ADMINISTRAR PARCEIROS---------------------------------*/
+
+/*------------------------------------------ADMINISTRAR USUARIOS------------------------------------*/
+.apoio_administrar_usuarios{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+
+.titulo_administrar_usuarios{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_usuarios{
+    width: 200px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+    margin-top:50px;
+}
+.text_addusuarios{
+    width:auto;
+    height:auto;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    margin-left:7px;
+}
+.apoio_pesquisa_usuarios{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_usuarios{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_usuarios{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_usuarios:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_usuarios{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_usuarios{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+
+.tabela_usuarios td:nth-child(5){width: 100px;}
+
+.tabela_usuarios td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_usuarios tr{
+    background-color:#CCCCCC;
+}
+/*--------------------------------------FIM ADMINISTRAR USUARIOS------------------------------------*/
+
+/*-----------------------------------------ADMINISTRAR SLIDES---------------------------------------*/
+.apoio_administrar_slides{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+
+.titulo_slides{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_slides{
+    width: 700px;
+    height: auto;
+    border: solid 0px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #980000;
+}
+.imagem_slide{
+    width: 175px;
+    height: 100px;
+    border: solid 1px #000000;
+    margin-left: 168px;
+    margin-top: 10px;
+}
+.apoio_pesquisa_slides{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_slides{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_slides{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_slides:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_slides{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_slides{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+.tabela_slides td:nth-child(4){width: 100px;}
+
+.tabela_slides td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_slides tr{
+    background-color:#CCCCCC;
+}
+/*-------------------------------------FIM ADMINISTRAR SLIDES---------------------------------------*/
+
+/*---------------------------------------VISUALIZAR CLIENTES----------------------------------------*/
+.apoio_visualizar{
+    width: 100%;
+    height: 40px;
+    border: solid 0px;
+    margin-top: 15px;
+}
+
+.titulo_visualizar{
+    width: 320px;
+    height: 40px;
+    border: solid 1px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.titulo_visualizar p{
+    line-height: 0px;
+    
+}
+
+.apoio_tabela_visualizar{
+    width: 98%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabela_visualizar{
+    border: solid 1px;
+    width: 100%;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.tabela_visualizar td{
+    border: solid 1px;
+    border-color: #000000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.apoio_formulario_visualizar{
+    width: 400px;
+    height: 150px;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem_visualizar{
+    width: 80px;
+    height: 80px;
+    border: solid 1px #000000;
+    margin-left: 260px;
+}
+/*-----------------------------------FIM VISUALIZAR CLIENTES----------------------------------------*/
+
+/*-------------------------------------------MENU---------------------------------------------------*/
+.apoio_menu{
+    width: auto;
+    height: 50px;
+    border: solid 0px;
+    margin-left: -284px;
+    font-family: verdana;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-color: #580000;
+    float:left;
+    margin-top:20px;
+}
+.menu_desktop{
+    height:30px;
+    border:solid 0px;
+    padding-top:10px;
+    margin-top:4px;
+}
+.menu_desktop,
+.sub-submenu_desktop {
+    list-style: none;
+}
+.menu_desktop a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu_desktop li {
+    position: relative;
+    margin-left: 50px;
+}
+.menu_desktop > li {
+    float: left;
+}
+.menu_desktop li:hover > .submenu_desktop {
+    display: block;
+}
+.submenu_desktop {
+    display: none;
+    list-style-type: none;
+    background-color: #580000;
+    width: auto;
+    height: auto;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.submenu_desktop li{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    padding-top:5px;
+}
+.submenu_desktop li:hover {
+  background: #B22222;
+  color: #FFFFFF;
+}
+.submenu_desktop .submenu_desktop {
+    top: 0;
+    left: 100%;
+}
+/*---------------------------------------FIM MENU---------------------------------------------------*/
+
+/*-------------------------------------ADICIONAR DICAS----------------------------------------------*/
+.titulo_dica{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.frm_dica{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.edit_radio_dicas{
+    width: 430px;
+    height: 35;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    float: left;
+    text-align: center;
+}
+.nome_dica{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_txtbox_dicas{
+    width: 275px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 9px;
+}
+.texto_dica{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 20px;
+    float: left;
+    color: #980000;
+}
+.edit_textarea_dicas{
+    width: 270px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 15px;
+}
+.foto_dica{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_img_dica{
+    margin-left: 90px;
+}
+.dica_img{
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    margin-left: 148px;
+    margin-top: 10px;
+}
+.botao_add_dica{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 32px;
+    float: left;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+/*-------------------------------------FIM ADICIONAR DICAS------------------------------------------*/
+
+/*-------------------------------------ADICIONAR PARCEIROS------------------------------------------*/
+.titulo_adicionar_parceiros{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.frm_parceiros{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top:20px;
+}
+.nome_parceiro{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top:10px;
+}
+.edit_txtbox_parceiros{
+    width: 250px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 0px;
+}
+.edit_email_parceiros{
+    width: 250px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 110px;
+}
+.edit_tel_parceiros{
+    width: 250px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 85px;
+}
+.edit_site_parceiros{
+    width: 250px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 125px;
+}
+.logo_parceiro{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 10px;
+}
+.edit_img_parceiro{
+    margin-left: 87px;
+}
+.parceiro_img{
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    margin-left: 148px;
+    margin-top: 10px;
+}
+.info_parceiro{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 10px;
+    float: left;
+    color: #980000;
+}
+.edit_textarea_parceiro{
+    width: 270px;
+    height: 135px;
+    color: #000000;
+    resize: none;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 25px;
+}
+.botao_addparceiro{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 20px;
+    float: left;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+/*-----------------------------------FIM ADICIONAR PARCEIROS----------------------------------------*/
+
+/*-------------------------------------ADICIONAR USUARIOS-------------------------------------------*/
+.titulo_adicionar_usuarios{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.frm_usuarios{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.nome_completo_usuario{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+}
+.edit_nome_completo{
+    width: 240px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 25px;
+}
+.email_usuario{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_email_usuario{
+    width: 240px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 120px;
+}
+.nome_usuario{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_txtbox_usuario{
+    width: 240px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 14px;
+}
+.senha_usuario{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_senha_usuario{
+    width: 240px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 10px;
+}
+.confirm_senha{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_confirm_senha{
+    width: 240px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 17px;
+}
+.id_funcionario{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_select_id{
+    width: 244px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.permissao_usuario{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 20px;
+}
+.edit_select_usuario{
+    width: 244px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+}
+.botao_addusuario{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 113px;
+    float: left;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+/*-----------------------------------FIM ADICIONAR USUARIOS----------------------------------------*/
+
+/*-----------------------------------ADMINISTRAR CATEGORIAS----------------------------------------*/
+.apoio_categoria{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: solid 0px;
+    float: left;
+}
+.titulo_categorias{
+    width:330px;
+    height:35px;
+    border: solid 0px;
+    margin-left: 15px;
+    float: left;
+    font-family: verdana;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+    padding-top:5px;
+}
+.nome_categoria{
+    width: auto;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.edit_txtbox_categoria{
+    width: 236px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    font-size: 16px;   
+}
+.botao_categoria{
+    width: auto;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    margin-top: 50px;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.edit_submit:hover {
+    background: #580000;
+}
+.apoio_pesquisa_categoria{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_categoria{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_categoria{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_categoria:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_categorias{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_categorias{
+    border: solid 0px;
+    width: 1000px;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+.tabela_categorias td:nth-child(3){width: 100px;}
+
+.tabela_categorias td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_categorias tR{
+    background-color:#CCCCCC;
+}
+/*---------------------------------FIM ADMINISTRAR CATEGORIAS--------------------------------------*/
+
+/*----------------------------------ADMINISTRAR SUBCATEGORIAS--------------------------------------*/
+.apoio_subcategoria{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: solid 0px;
+    float: left;
+}
+.titulo_subcategorias{
+    width:370px;
+    height:35px;
+    border: solid 0px;
+    margin-left: 15px;
+    float: left;
+    font-family: verdana;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+    padding-top:5px;
+}
+.nome_subcategoria{
+    width: auto;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.edit_txtbox_subcategoria{
+    width: 236px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    font-size: 16px;   
+}
+.nome_select_categoria{
+    width: auto;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-left: 15px;
+}
+.edit_txtbox_select_categoria{
+    width: 208px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    margin-left: 126px;
+    font-size: 16px;
+    float: left;
+    border: solid 0px;
+}
+.botao_select_categoria{
+    width:25px;
+    height: 25px;
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: solid 0px;
+}
+.botao_select_categoria img{
+    width: 100%;
+    height: 100%;
+}
+.botao_subcategoria{
+    width: auto;
+    height: auto;
+    float: left;
+    border: solid 0px;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+.apoio_pesquisa_subcategoria{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_subcategoria{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_subcategoria{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_subcategoria:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_subcategorias{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_subcategorias{
+    border: solid 0px;
+    width: 1200px;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+
+.tabela_subcategorias td:nth-child(3){width: 100px;}
+
+.tabela_subcategorias td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_subcategorias tr{
+    background-color:#CCCCCC;
+}
+/*--------------------------------FIM ADMINISTRAR SUBCATEGORIAS------------------------------------*/
+
+/*-------------------------------------ADICIONAR PROMOÇÃO------------------------------------------*/
+.titulo_promocao{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.frm_promocao{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.nome_promocao{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+}
+.edit_txtbox_promo{
+    width: 234px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+}
+.pratos_promocao{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 30px;
+}
+.edit_select_promo{
+    width: 204px;
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+    float: left;
+    margin-left: 2px;
+}
+.text_promocao{
+    width: auto;
+    height: auto; 
+    border: solid 0px;
+    float: left;
+}
+.botao_adicionar{
+    width:25px;
+    height: 25px;
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    float: left;
+    color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: solid 0px;
+}
+.botao_adicionar img{
+    width: 100%;
+    height: 100%;
+}
+.desconto_promocao{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 30px;
+}
+.edit_number_promo{
+    width: 100px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin-left: 145px;
+}
+
+.inicio_promocao{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 30px;
+}
+.edit_date_inicio{
+    width: 160px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    margin-left: 25px;
+}
+.fim_promocao{
+    width: 430px;
+    height: auto;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+    margin-top: 30px;
+}
+.edit_date_fim{
+    width: 160px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    margin-left: 42px;
+}
+.botao_addpromocao{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 100px;
+    float: left;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+    background: #580000;
+    cursor: pointer;
+}
+/*--------------------------------------FIM ADICIONAR PROMOÇÃO---------------------------------------*/
+
+/*---------------------------------------ADMINISTRAR PROMOÇÃO----------------------------------------*/
+.apoio_administar_promocoes{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+}
+.titulo_administrar_promocoes{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top:5px;
+}
+.adicionar_promocao{
+    width: 245px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+    margin-top:50px;
+}
+.text_addpromocao{
+    width:auto;
+    height:auto;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+    float:left;
+    text-align:center;
+    padding-top:5px;
+    margin-left:23px;
+}
+.apoio_pesquisa_promocoes{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_promocoes{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_promocoes{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_promocoes:hover{
+  background-color: #580000;   
+}
+.apoio_tabela_promocoes{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_promocoes{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFFFFF;
+}
+.tabela_promocoes td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_promocoes td a{
+    text-decoration: none;
+    color: #000;
+}
+
+.tabela_promocoes td a:hover{
+    text-decoration: underline;
+}
+.tabela_promocoes tr{
+    background-color:#CCCCCC;
+}
+/*----------------------------------FIM ADMINISTRAR PROMOÇÃO----------------------------------------*/
+
+/*-------------------------------------ADMINISTRAR NIVEIS-------------------------------------------*/
+.apoio_administrar_niveis{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    margin-top: 15px;
+	float:left;
+}
+
+.titulo_administrar_niveis{
+    width: 330px;
+    height: 35px;
+    border: solid 0px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 24px;
+    color:#FFFFFF;
+    background-color: #980000;
+    font-weight: bold;
+    margin-left: 15px;
+	padding-top:5px;
+}
+.adicionar_nivel{
+    width: 230px;
+    height: 35px;
+    border: solid 0px;
+    background-color: #980000;
+    margin-left: 15px;
+	margin-top:50px;
+}
+.text_addnivel{
+	width:auto;
+	height:auto;
+	border: solid 0px;
+    font-family: verdana;
+    font-size: 20px;
+    color:#FFFFFF;
+	float:left;
+	text-align:center;
+	padding-top:5px;
+	margin-left:30px;
+}
+.apoio_pesquisa_niveis{
+    width: 470px;
+    height: auto;
+    border: solid 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.text_pesquisa_niveis{
+    width: 350px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #E7E8E7;
+    font-family: verdana;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.botao_pesquisa_niveis{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980000;
+    border: solid 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.botao_pesquisa_niveis:hover{
+  background-color: #580000;   
+}
+
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+	background: #580000;
+    cursor: pointer;
+}
+.apoio_tabela_niveis{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_niveis{
+    border: solid 0px;
+    width: 98%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:#FFFFFF;
+}
+
+.tabela_niveis td:nth-child(3){ width: 100px; }
+
+.tabela_niveis td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_niveis tr{
+	background-color:#CCCCCC;
+}
+/*------------------------------------FIM ADMINISTRAR NIVEIS----------------------------------------*/
+
+/*---------------------------------------ADICIONAR NIVEIS-------------------------------------------*/
+
+.apoio_titulo{
+	width:100%;
+	height:auto;
+	border:solid 0px;
+	float:left;
+}
+.titulo_addnivel{
+    width:330px;
+    height:60px;
+    border: solid 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    float: left;
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #980000;
+    color: #FFFFFF;
+}
+.botao_voltar{
+	width: 50px;
+    height: 50px;
+    border: solid 0px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+.botao_voltar img{
+    width: 50px;
+    height: 50px;
+}
+.frm_nivel{
+    width: 430px;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.nome_addnivel{
+    width: 430px;
+    height: 30px;
+    float: left;
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 18px;
+    color: #980000;
+}
+.edit_txtbox_nivel{
+    width: 230px;
+    height: 25px;
+    color: #000;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    margin: 0 auto;
+}
+.botao_addnivel{
+    width: 430px;
+    height: 30px;
+    border: solid 0px;
+    margin-top: 25px;
+    float: left;
+}
+.apoio_tabela_addnivel{
+    width: 100%;
+    height: auto;
+    border: solid 0px;
+    float: left;
+    margin-top: 35px;
+}
+.tabela_addnivel{
+    border: solid 0px;
+    width: 80%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:#FFFFFF;
+}
+.tabela_addnivel td{
+    border: solid 0px;
+    border-color: #000000;
+    text-align: center;
+}
+.tabela_addnivel tr{
+	background-color:#CCCCCC;
+}
+
+.edit_radio_nivel{
+    border: solid 0px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+.edit_submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    text-align: center;
+    background: #980000;
+    border: 0px solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}
+.edit_submit:hover {
+	background: #580000;
+    cursor: pointer;
+}
+
+/************LIGHTBOX***********************/
+ .background_subcategorias {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=0.7);
+    z-index: 1000;
+    display: none;
+}
+.caixa_subcategorias{
+	position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 300px;
+    height: auto;
+    color: #000;
+	border:solid 1px;
+	border-color:#CCCCCC;
+    background-color: #FFFFFF;
+    z-index: 1000;
+    padding: 14px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    -moz-box-shadow: 2px 2px 2px #CCCCCC;
+    -webkit-box-shadow: 2px 2px 2px #CCCCCC;
+    display: none;
+    position: fixed;
+	margin-top:220px;
+	margin-left:100px;
+}
+.select_subcategoria{
+	width: 260px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    resize: none;
+    padding-left: 5px;
+    background-color: #E7E8E7;
+    border-style: none;
+    font-size: 16px;
+}
+.close img{
+	width:30px;
+	height:30px;
+	margin-left:270px;
+}
+/******************************************/
